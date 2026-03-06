@@ -9,6 +9,7 @@
 ## Overview
 
 The **ATHENA Framework** is an analytical model designed to understand how narratives influence audiences and why some messages trigger resistance or rejection.
+ATHENA provides a structured approach for analyzing narrative influence, misinformation dynamics, and psychological resistance in communication systems.
 
 Rather than focusing solely on persuasion techniques, ATHENA models communication dynamics as the interaction of **four analytical forces**:
 
@@ -23,18 +24,30 @@ ATHENA was developed as a **diagnostic framework** to help analysts better under
 
 ---
 
+## Keywords
+
+ATHENA framework, narrative analysis, narrative influence, psychological reactance, misinformation dynamics, disinformation analysis, strategic communication, information environments, influence analysis.
+
+---
+
 ## ATHENA Conceptual Model
 
 ATHENA organizes narrative influence around four analytical poles.
 
-             TERRAIN
-      (Audience context)
+                                 TERRAIN
+                        (Audience context / values)
 
-CORPS                     VECTEUR
-(Narrative structure)     (Diffusion force)
+                                    ▲
+                                    │
 
-            BOUCLIER
-   (Psychological reactance)
+          CORPS       ───── Narrative Dynamics ───── VECTEUR
+    (Narrative structure)                          (Diffusion force)
+
+                                    │
+                                    ▼
+
+                                BOUCLIER
+                         (Psychological reactance)
 
 ---
 
@@ -139,3 +152,5 @@ elise.cahour@athena-narrative.com
 ## License
 
 Creative Commons Attribution-NonCommercial-ShareAlike (CC BY-NC-SA 4.0)
+
+
