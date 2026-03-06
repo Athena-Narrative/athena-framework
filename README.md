@@ -1,6 +1,11 @@
 # ATHENA Framework
 ### A Four-Pole Model for Narrative Influence and Psychological Reactance Analysis
 
+![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey)
+![Status](https://img.shields.io/badge/status-research%20framework-blue)
+![Domain](https://img.shields.io/badge/domain-narrative%20analysis-orange)
+![Version](https://img.shields.io/badge/version-conceptual%20v1-green)
+
 ## Overview
 
 The **ATHENA Framework** is an analytical model designed to understand how narratives influence audiences and why some messages trigger resistance or rejection.
