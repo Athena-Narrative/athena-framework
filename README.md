@@ -1,6 +1,8 @@
 # ATHENA Framework
 ### A Four-Pole Model for Narrative Influence and Psychological Reactance Analysis
 
+ATHENA models narrative influence as the dynamic interaction between narrative structure, audience context, diffusion mechanisms, and psychological resistance.
+
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey)
 ![Status](https://img.shields.io/badge/status-research%20framework-blue)
 ![Domain](https://img.shields.io/badge/domain-narrative%20analysis-orange)
@@ -9,7 +11,10 @@
 ## Overview
 
 The **ATHENA Framework** is an analytical model designed to understand how narratives influence audiences and why some messages trigger resistance or rejection.
+
 ATHENA provides a structured approach for analyzing narrative influence, misinformation dynamics, and psychological resistance in communication systems.
+
+ATHENA analyzes narrative influence as the dynamic interaction between persuasive forces and psychological resistance mechanisms.
 
 Rather than focusing solely on persuasion techniques, ATHENA models communication dynamics as the interaction of **four analytical forces**:
 
