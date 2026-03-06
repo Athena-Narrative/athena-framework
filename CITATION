@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: ATHENA Framework
+message: "If you use the ATHENA framework, please cite it as follows."
+authors:
+  - family-names: Cahour
+    given-names: Elise
+date-released: 2026
+repository-code: https://github.com/yourprofile/athena-framework
