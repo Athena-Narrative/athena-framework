@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+title: "ATHENA Framework"
+message: "If you use this framework in research or analytical work, please cite it as follows."
+type: software
+authors:
+  - family-names: "Cahour"
+    given-names: "Elise"
+repository-code: "https://github.com/Athena-Narrative/athena-framework"
+license: "CC-BY-NC-SA-4.0"
+version: "2026.1"
+date-released: "2026-03-09"
+abstract: >
+  ATHENA is a four-pole analytical framework for narrative influence analysis,
+  integrating narrative structure, audience configuration, psychological
+  reactance, and activation dynamics.
+keywords:
+  - narrative analysis
+  - psychological reactance
+  - strategic communication
+  - disinformation analysis
+  - influence analysis
+  - information dynamics
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Cahour"
+      given-names: "Elise"
+  title: "ATHENA Framework — A Four-Pole Analytical Framework for Narrative Influence Analysis"
+  year: 2026
+  url: "https://github.com/Athena-Narrative/athena-framework"
