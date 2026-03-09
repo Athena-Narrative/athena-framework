@@ -3,7 +3,6 @@
 
 # 2) `docs/conceptual-foundations.md`
 
-```markdown
 # Conceptual Foundations
 
 ## Purpose
