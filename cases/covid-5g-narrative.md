@@ -84,3 +84,23 @@ A possible ATHENA diagnosis would be:
 - TERRAIN: partially aligned
 - BOUCLIER: elevated
 - VECTEUR: strong
+
+---
+
+## Interpretation
+
+This is not simply a “false message.”
+
+It is a narrative configuration with enough internal coherence and transmissibility to circulate, but with a strong defensive shield against direct correction.
+
+This means that blunt contradiction may increase resistance instead of reducing adherence.
+
+---
+
+## Strategic Implication
+
+ATHENA would suggest caution against overly frontal corrective communication in highly reactant audiences.
+
+The key insight is that narrative performance cannot be explained by content alone.
+
+The interaction between structure, terrain, shield, and vector is what determines the observable outcome.
