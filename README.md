@@ -107,29 +107,35 @@ ATHENA helps detect narrative configurations that many single-discipline models 
 ### False strong messages
 
 A narrative appears persuasive but fails due to strong defensive reactions.
-
+```text
 CORPS strong
 + TERRAIN favorable
 + BOUCLIER elevated
 = narrative failure
+...
+```
 
 ### Weak messages that go viral
 
 A mediocre narrative spreads because the overall system configuration is aligned.
-
+```text
 CORPS average
 + TERRAIN aligned
 + BOUCLIER low
 + VECTEUR strong
 = virality
+...
+```
 
 ### Narrative tipping points
 
 Increasing narrative pressure may worsen the situation.
-
+```text
 VECTEUR strong
 + BOUCLIER elevated
 = backlash / polarization / counter-mobilization
+...
+```
 
 ## Analytical Workflow
 
