@@ -54,7 +54,6 @@ CORPS ◄──────── System configuration ───────► 
                BOUCLIER
        (Defensive threshold / reactance)
 
-...
 ```
 
 ## Overview
@@ -112,7 +111,6 @@ CORPS strong
 + TERRAIN favorable
 + BOUCLIER elevated
 = narrative failure
-...
 ```
 
 ### Weak messages that go viral
@@ -124,7 +122,6 @@ CORPS average
 + BOUCLIER low
 + VECTEUR strong
 = virality
-...
 ```
 
 ### Narrative tipping points
@@ -134,7 +131,6 @@ Increasing narrative pressure may worsen the situation.
 VECTEUR strong
 + BOUCLIER elevated
 = backlash / polarization / counter-mobilization
-...
 ```
 
 ## Analytical Workflow
