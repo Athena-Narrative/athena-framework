@@ -96,9 +96,33 @@ ATHENA makes these divergences analyzable.
 ## Example Configurations
 
 ### False strong message
-
-```text
 CORPS strong
 + TERRAIN favorable
 + BOUCLIER high
 = failure or rejection
+
+### Weak but viral narrative
+CORPS average
++ TERRAIN aligned
++ BOUCLIER low
++ VECTEUR strong
+= amplification
+
+### Tipping-point configuration
+VECTEUR strong
++ BOUCLIER high
+= backlash / polarization
+
+
+## Dynamic Reading
+
+ATHENA is not only descriptive. It supports a dynamic reading of narrative situations.
+
+It helps analysts identify:
+
+- stability zones
+- fragility zones
+- tension zones
+- possible tipping points
+
+In this sense, ATHENA can be interpreted as a framework for reading narrative dynamics in a cognitive landscape, rather than merely classifying message content.
