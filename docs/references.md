@@ -10,7 +10,13 @@ The references below indicate some of the conceptual traditions that inform its 
 
 Narrative structure and meaning-making are central to how audiences interpret events and actors.
 
-- **Propp, V. (1928)** – *Morphology of the Folktale.*  
+-  **Pearson, C. S. (1991)** — *Awakening the Heroes Within.*
+  Twelve archetypes as universal patterns of meaning-making and identification.
+
+-  **Ricœur, P. (1990)** — *Soi-même comme un autre.*
+  Narrative identity theory — the self is constituted through the stories we recognize ourselves in.
+
+-  **Propp, V. (1928)** – *Morphology of the Folktale.*  
   Foundational structural analysis of narrative roles and story patterns.
 
 - **Somers, M. R. (1994)** – *The Narrative Constitution of Identity.*  
