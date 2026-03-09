@@ -91,16 +91,16 @@ A possible ATHENA diagnosis would be:
 
 This is not simply a “false message.”
 
-It is a narrative configuration with enough internal coherence and transmissibility to circulate, but with a strong defensive shield against direct correction.
+It is a narrative configuration with sufficient internal coherence and transmissibility to circulate, while also benefiting from a defensive shield against direct correction.
 
-This means that blunt contradiction may increase resistance instead of reducing adherence.
+In such cases, blunt contradiction may increase resistance rather than reduce adherence.
 
 ---
 
 ## Strategic Implication
 
-ATHENA would suggest caution against overly frontal corrective communication in highly reactant audiences.
+From an ATHENA perspective, this type of configuration calls for a cautious communication posture.
 
-The key insight is that narrative performance cannot be explained by content alone.
+Overly frontal corrective messaging may reinforce reactance in already suspicious audiences. A lower-friction approach (focused on explanation, contextualization, and careful signal monitoring) may be more appropriate.
 
-The interaction between structure, terrain, shield, and vector is what determines the observable outcome.
+The key insight is that narrative performance cannot be explained by content alone. It emerges from the interaction between structure, terrain, shield, and vector.
