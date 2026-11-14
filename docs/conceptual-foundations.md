@@ -1,8 +1,4 @@
 
----
-
-# 2) `docs/conceptual-foundations.md`
-
 # Conceptual Foundations
 
 ## Purpose
@@ -30,7 +26,7 @@ Narrative theory helps identify:
 - archetypes
 - symbolic positioning
 
-But it generally does not explain how the same narrative may be accepted by one audience, rejected by another, or provoke backlash in a third.
+But it generally does not explain how the same narrative may be accepted by one audience, rejected by another, or provoke reactance in a third.
 
 ### Cognitive and persuasion models
 Persuasion and psychological models help identify:
@@ -99,6 +95,24 @@ Its originality lies less in any single borrowed concept than in the **specific 
 
 ---
 
+## Reactance, Not the "Backfire Effect"
+
+ATHENA's resistance pole is anchored in **psychological reactance theory** (Brehm, 1966) and in the intertwined model of Dillard and Shen (2005), in which reactance is an amalgam of anger and negative cognitions.
+
+When a message or a correction is received as a restriction of the freedom to judge, the theory predicts two effects: **derogation of the source** and **reinforcement of the threatened position**.
+
+This is distinct from the "backfire effect" described by Nyhan and Reifler (2010), on which ATHENA does not rely. Large-scale replications (Wood & Porter, 2019) indicate that factual corrections do correct beliefs, without necessarily shifting attitudes.
+
+The consequence for analysis: the question is not whether facts work, but whether the way a message or a correction is delivered is perceived as a threat to freedom, and what that does to the standing of the source.
+
+## From Configuration to Reception
+
+The first public version of ATHENA described narratives as configurations of four forces. Applying it to real cases led to three refinements:
+
+- **Reception is assessed against an objective.** A narrative does not "work" in the abstract: it aims at a perception, a belief or a behaviour. The objective is fixed before assessment.
+- **Identity comes first.** Who speaks and which role it assigns to the audience shapes every pole. This is read once, upstream, through archetypal analysis.
+- **The terrain exists before the message.** Distrust, polarization and social demand for certain narratives explain why some audiences look for the stories that reach them.
+
 ## One-Sentence Academic Formulation
 
-ATHENA shifts narrative analysis from **content analysis** to **system configuration analysis**, by integrating psychological reactance as a structural pole of a dynamic narrative system.
+ATHENA shifts narrative analysis from **content analysis** to **reception analysis**, by integrating psychological reactance as a structural pole of a dynamic narrative system and by assessing each narrative against the objective it pursues.

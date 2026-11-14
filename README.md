@@ -1,48 +1,82 @@
 # ATHENA Framework
-### A Four-Pole Analytical Framework for Narrative Influence Analysis
+### A Reception-Analysis Framework for Narrative Influence
 
-ATHENA is an analytical framework for studying how narratives interact with audience configurations, psychological reactance, and activation dynamics.
+*Version française : [`fr/README.md`](fr/README.md)*
 
-Rather than treating narratives as isolated persuasive contents, ATHENA interprets them as **perturbations within a collective cognitive system**. Depending on the system configuration, a narrative may be absorbed, amplified, stagnate, or trigger an opposing reaction.
+ATHENA is an analytical framework for studying **how narratives are received**: why a message is absorbed, amplified, ignored, or rejected by a given audience, in a given context, at a given moment.
+
+Rather than treating narratives as isolated persuasive contents, ATHENA interprets them as **perturbations within a collective cognitive system**. Depending on the configuration of that system, the same narrative may take hold, stagnate, or trigger an opposing reaction.
 
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey)
-![Status](https://img.shields.io/badge/status-research%20framework-blue)
-![Domain](https://img.shields.io/badge/domain-narrative%20analysis-orange)
-![Version](https://img.shields.io/badge/version-conceptual%20v1-green)
+![Status](https://img.shields.io/badge/status-operational%20research%20framework-blue)
+![Domain](https://img.shields.io/badge/domain-narrative%20reception-orange)
+![Version](https://img.shields.io/badge/public%20version-2026.2-green)
 
 ---
 
-# What ATHENA Does
+## What ATHENA Does
 
-ATHENA structures narrative influence analysis around **four interacting analytical poles**.
+ATHENA structures reception analysis around **four interacting analytical poles**.
 
 | Pole | What it observes |
 |---|---|
 | **CORPS** | Narrative structure of the message |
-| **TERRAIN** | Psychological and cultural configuration of the audience |
+| **TERRAIN** | Psychological, cultural and social configuration of the audience |
 | **BOUCLIER** | Defensive mechanisms and psychological reactance |
 | **VECTEUR** | Activation and propagation dynamics |
 
-Together these four poles help analysts understand not only whether a narrative is strong, but **why it works, fails, stalls, polarizes, or backfires** in a given context.
+Together these poles help analysts understand not only whether a narrative is strong, but **why it works, fails, stalls, polarizes, or triggers reactance** for a specific audience.
+
+Since its first public release (March 2026), ATHENA has moved from a conceptual model to an **operational analytical chain**, tested on retrospective cases of foreign information manipulation.
 
 ---
 
-# Core Insight
+## Core Insight
 
-ATHENA shifts narrative analysis from **content analysis** to **system configuration analysis**.
+ATHENA shifts narrative analysis from **content analysis** to **reception analysis**.
 
 It helps answer questions such as:
 
 - Why does a seemingly strong narrative fail?
 - Why does a mediocre narrative go viral?
 - When does narrative pressure produce reactance instead of persuasion?
-- At what point does a campaign risk polarization or backlash?
+- When is a public denunciation likely to amplify the very narrative it targets?
+- Which part of a diagnosis can be checked against observable reality, and which part remains a hypothesis?
 
 ---
 
-# System Architecture
+## What Is New in 2026.2
+
+The four-pole core is unchanged. Around it, ATHENA now includes:
+
+| Component | Role |
+|---|---|
+| **Archetypal reading** | An upstream identification layer: which figure the emitter embodies, which roles it assigns to others, and towards which "shadow" or "light" state the narrative is sliding. Identified once, under evidence, then shared with the poles. |
+| **Reactance module** | BOUCLIER is now assessed through a dedicated module that separates reactance carried by the message itself from reactance carried by the audience's social context. |
+| **Reception substrate** | A structured description of the terrain *before* the message arrives: institutional distrust, polarization, social demand for certain narratives. |
+| **Objective-setting stage** | Before any assessment, the analyst fixes what the narrative is trying to achieve (alter a perception, install a belief, trigger a behaviour) and its long-term strategic aim. Poles assess against that objective, not in the abstract. |
+| **Interoperability with DISARM and DIMA** | Attacker-side descriptions (tactics, cognitive techniques) are ingested as upstream material. They inform the reception analysis without being merged into it. |
+| **Temporal layer** | Narrative half-life, narrative phase, and the distinction between one-shot operations and cumulative campaigns. |
+| **Epistemic doctrine** | Every input carries its evidential status; every output carries its proof regime. ATHENA states what can be verified, and what cannot. |
+| **Human-in-the-loop, LLM-assisted chain** | Language models propose structured assessments under an explicit evidence contract; the analyst arbitrates, completes the context-dependent parts, and validates. |
+| **Two-level output** | An analyst report, and a jargon-free briefing for decision-makers. |
+
+See `CHANGELOG.md` for the dated history of these developments.
+
+---
+
+## System Architecture
 
 ```text
+             UPSTREAM MATERIAL
+   Archetypal reading · Attacker-side frameworks
+   (DISARM, DIMA) · Reception substrate
+                    │
+                    ▼
+            OBJECTIVE SETTING
+   Immediate narrative objective · Long-term aim
+                    │
+                    ▼
                 VECTEUR
           (Activation / diffusion)
                     ▲
@@ -52,169 +86,119 @@ CORPS ◄──────── System configuration ───────► 
                     │
                     ▼
                BOUCLIER
-       (Defensive threshold / reactance)
-
+       (Reactance / defensive threshold)
+                    │
+                    ▼
+     ANALYST VALIDATION → DIAGNOSIS → BRIEFING
+                    │
+                    ▼
+          Observable checks (RETEX)
 ```
-
-## Overview
-
-The **ATHENA Framework** is a diagnostic analytical model designed to understand how narratives influence audiences and why some messages trigger resistance or rejection.
-
-ATHENA analyzes narrative influence as the **dynamic interaction between persuasive forces and psychological resistance mechanisms.**
-
-Rather than focusing solely on persuasion techniques, ATHENA models communication dynamics as the interaction of four analytical forces:
-
-- narrative structure
-- audience receptivity
-- diffusion intensity
-- psychological reactance
-
-Together these dimensions determine whether a narrative is likely to:
-
-- spread
-- stagnate
-- trigger opposition
-- produce polarization
 
 ## Core Principle
 
 Narrative impact emerges from the **interaction between influence forces and resistance forces**.
 
-Influence forces:
-
-- **CORPS** (narrative structure)
-- **VECTEUR** (diffusion dynamics)
-
-Resistance forces:
-
-- **TERRAIN** (audience context)
-- **BOUCLIER** (psychological reactance)
-
-## Diagnostic Matrix
 | Influence | Resistance | Outcome |
 |-----------|------------|--------|
-| High | Low | Narrative Adoption |
-| High | High | Conflict / Polarization |
-| Low | Low | Information Inertia |
-| Low | High | Defensive Rejection |
+| High | Low | Narrative adoption |
+| High | High | Conflict / polarization |
+| Low | Low | Information inertia |
+| Low | High | Defensive rejection |
 
+### Configurations this reveals
 
-## What This Architecture Reveals
+**False strong messages.** A narrative looks persuasive but fails because it triggers strong defensive reactions.
 
-ATHENA helps detect narrative configurations that many single-discipline models overlook.
+**Weak messages that go viral.** A mediocre narrative spreads because the whole system is aligned: receptive terrain, low resistance, strong vector.
 
-### False strong messages
+**Narrative tipping points.** Increasing pressure on a resistant audience worsens the situation: source derogation, hardening of the threatened position, counter-mobilization.
 
-A narrative appears persuasive but fails due to strong defensive reactions.
-```text
-CORPS strong
-+ TERRAIN favorable
-+ BOUCLIER elevated
-= narrative failure
-```
+**Weak attack on fragile terrain.** The danger lies less in the message than in the state of the audience it lands on. Over-reacting can do more harm than the operation itself (see `cases/doppelganger-bedbugs-2023.md`).
 
-### Weak messages that go viral
+---
 
-A mediocre narrative spreads because the overall system configuration is aligned.
-```text
-CORPS average
-+ TERRAIN aligned
-+ BOUCLIER low
-+ VECTEUR strong
-= virality
-```
+## Analytical Workflow (summary)
 
-### Narrative tipping points
+1. Gather upstream material (archetypal reading, attacker-side description, reception substrate)
+2. Fix the objective of the narrative
+3. Assess the four poles, each blind to the others' scores
+4. Complete and validate the context-dependent assessments (analyst)
+5. Diagnose the configuration and check it against the analyst's reading
+6. Produce the analyst report and the decision-maker briefing
+7. State the observables that would confirm or refute the diagnosis
 
-Increasing narrative pressure may worsen the situation.
-```text
-VECTEUR strong
-+ BOUCLIER elevated
-= backlash / polarization / counter-mobilization
-```
+Detailed documentation:
 
-## Analytical Workflow
+- `docs/conceptual-foundations.md`
+- `docs/system-architecture.md`
+- `docs/analytical-workflow.md`
+- `docs/epistemic-doctrine.md`
+- `docs/limitations-and-scope.md`
+- `docs/references.md`
 
-A basic ATHENA analysis follows four steps:
+Cases:
 
-1. Identify the narrative
-2. Assess the four analytical poles
-3. Determine dominant forces
-4. Diagnose the narrative dynamic
+- `cases/covid-5g-narrative.md`: illustrative conceptual case
+- `cases/doppelganger-bedbugs-2023.md`: retrospective case, analysed with the operational chain
 
-Detailed methodology:
-
-- docs/conceptual-foundations.md
-- docs/system-architecture.md
-- docs/analytical-workflow.md
-- docs/limitations-and-scope.md
-- docs/references.md
-
-Example analysis:
-
-cases/covid-5g-narrative.md
+---
 
 ## Applications
 
-The ATHENA framework can support analysis in contexts such as:
-
-- misinformation and disinformation
-- strategic communication
-- crisis communication
-- negotiation environments
-- social media narrative propagation
-- influence operations analysis
-- communication risk assessment
-
-## Keywords
-
-ATHENA framework, narrative analysis, narrative influence, psychological reactance, misinformation dynamics, disinformation analysis, strategic communication, influence analysis, information environments.
+- foreign information manipulation and interference (FIMI) analysis
+- counter-narrative design reasoning
+- red teaming of strategic or crisis communication
+- anticipation of reception risk before publication
+- research on misinformation and reactance
 
 ## Positioning
 
-ATHENA is designed as **complementary** to frameworks such as **DISARM**.
+ATHENA is designed as **complementary** to attacker-side frameworks.
 
-- **DISARM** helps describe what happened in an influence campaign (tactics, sequence, actors).
-- **ATHENA** helps explain **why narratives succeed or fail for specific audiences**.
+- **[DISARM](https://github.com/disarmfoundation)** describes what happened in an influence campaign (tactics, sequence, actors).
+- **[DIMA](https://github.com/M82-project/DIMA)**, developed by the M82 project, describes which cognitive techniques a manipulation relies on.
+- **ATHENA** analyses **how the targeted audience is likely to receive it**, and why.
+
+## Theoretical Anchor: Reactance, Not the "Backfire Effect"
+
+ATHENA's resistance pole is grounded in **psychological reactance theory** (Brehm, 1966) and the intertwined model of reactance (Dillard & Shen, 2005): when a message or a correction is received as a restriction of the freedom to judge, the theory predicts derogation of the source and reinforcement of the threatened position.
+
+ATHENA does **not** rely on the "backfire effect" (Nyhan & Reifler, 2010). Large-scale replications (Wood & Porter, 2019) indicate that factual corrections do correct beliefs, without necessarily shifting attitudes. What ATHENA assesses is the perceived threat to freedom and its consequences for the source and the position, not a supposed failure of facts.
 
 ## Scope and Intended Use
 
-ATHENA is intended as an **analytical tool for understanding narrative dynamics in communication environments**.
+ATHENA is an **analytical tool for understanding reception dynamics**. It diagnoses; it does not certify facts, and it does not predict individual behaviour.
 
-It is **not designed as a persuasion technique or as a tool for manipulating audiences**.
+Its operational use is currently focused on **state information defence**. It is not designed as a manipulation technique.
 
-## Conceptual vs Analytical Implementations
+## Public Layer vs Private Implementation
 
-This repository presents the **conceptual layer** of the ATHENA framework.
+This repository presents the **public layer** of ATHENA: concepts, architecture, workflow, doctrine and selected cases.
 
-Advanced analytical implementations (ATHENA Engine versions) used for structured assessments and scoring models are currently under development and are **not included in this repository**.
+The following are **not published**: assessment criteria and scales, weightings, thresholds and decision rules, signal definitions, reference grids (archetypes, slides, pole frameworks), prompts, operating procedures, software tools, and case files.
+
+This distinction is intentional.
 
 ## Versioning
 
-ATHENA is an evolving research framework.
-The conceptual structure presented here corresponds to the **current public version**.
+| Public version | Date | Content |
+|---|---|---|
+| 2026.1 | 9 March 2026 | Conceptual four-pole framework |
+| 2026.2 | November 2026 | Operational chain: upstream layers, reactance module, objective setting, temporal layer, epistemic doctrine, LLM-assisted workflow |
 
 ## Citation
 
-If you use the ATHENA framework in research or analytical work, please cite:
-
-Cahour, E. (2026)
-**ATHENA Framework — A Four-Pole Analytical Framework for Narrative Influence Analysis**
-GitHub repository
+Cahour, E. (2026). *ATHENA Framework: A Reception-Analysis Framework for Narrative Influence* (version 2026.2). GitHub repository. https://github.com/Athena-Narrative/athena-framework
 
 ## Author
 
-The ATHENA framework was developed by **Elise Cahour** as part of an independent research initiative exploring narrative influence and psychological reactance in communication environments.
+ATHENA was designed and developed by **Elise Cahour** as an independent research initiative on narrative reception and psychological reactance.
 
 ## Contact
 
-For research inquiries or collaboration proposals:
-
-Elise Cahour
-elise.cahour@athena-narrative.com
+Research inquiries and collaboration proposals: elise.cahour@athena-narrative.com
 
 ## License
 
-Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
-**CC BY-NC-SA 4.0**
-
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (**CC BY-NC-SA 4.0**)

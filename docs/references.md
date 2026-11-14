@@ -35,7 +35,15 @@ ATHENA's **BOUCLIER** dimension draws from research on psychological resistance 
   Foundational theory explaining how perceived threats to individual freedom produce motivational resistance.
 
 - **Dillard, J. P., & Shen, L. (2005)** – *On the Nature of Reactance and its Role in Persuasive Health Communication.*  
-  Empirical operationalization of reactance as a cognitive and affective process involving anger and counter-arguing.
+  *Communication Monographs*, 72(2). Intertwined model: reactance as an amalgam of anger and negative cognitions.
+
+ATHENA relies on reactance theory, not on the "backfire effect". The two references below are cited to mark that distinction:
+
+- **Nyhan, B., & Reifler, J. (2010)** – *When Corrections Fail: The Persistence of Political Misperceptions.* *Political Behavior*, 32(2).  
+  Original description of the backfire effect. Not a foundation of ATHENA.
+
+- **Wood, T., & Porter, E. (2019)** – *The Elusive Backfire Effect: Mass Attitudes' Steadfast Factual Adherence.* *Political Behavior*, 41(1).  
+  Large-scale replication finding that factual corrections generally correct beliefs.
 
 - **Compton, J. (2013)** – *Inoculation Theory.*  
   Research on how exposure to weakened forms of persuasion can strengthen resistance to manipulation.
@@ -95,7 +103,9 @@ Relevant traditions include:
 
 Examples include:
 
-- **DISARM framework**
+- **[DISARM](https://github.com/disarmfoundation) framework**: shared taxonomy of disinformation tactics and techniques.
+- **[DIMA](https://github.com/M82-project/DIMA)** (M82 project): characterisation of the cognitive techniques used in information manipulation.
+- **MITRE Attack Flow**: language for describing sequences of adversary behaviour; informs ATHENA's approach to sequence and causality between techniques and between narrative instances.
 - research on **information warfare and narrative competition**
 
 ---
