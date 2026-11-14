@@ -1,93 +1,53 @@
 # Limitations and Scope
 
-ATHENA is a conceptual analytical framework designed to support structured narrative analysis.
-
-It does not claim to provide deterministic predictions of social behaviour.
-
-Several limitations should be made explicit.
+ATHENA is an analytical framework designed to support structured reception analysis. It does not claim to provide deterministic predictions of social behaviour.
 
 ---
 
 ## 1. Expert interpretation required
 
-ATHENA relies on analyst interpretation when assessing narrative structure, audience configuration, and defensive thresholds.
+ATHENA structures expert reasoning; it does not replace it. Several assessments (audience sociology, history of reactance, feasibility of action, in-group relays) can only be made by an analyst with knowledge of the context.
 
-Its outputs should therefore be understood as **analytical aids**, not objective measurements.
+## 2. Use of language models
 
-The framework is intended to structure expert reasoning, not replace it.
+Language models are used to produce structured proposals from the corpus. They do not have access to the audience, they can be wrong, and their proposals are always arbitrated by the analyst. A model proposal is never a diagnosis.
 
----
+## 3. Context and data dependency
 
-## 2. Context sensitivity
+Narrative dynamics are highly context-dependent: timing, audience history, cultural setting, informational saturation, credibility of the source.
 
-Narrative dynamics are highly context-dependent.
+The falsifiable half of ATHENA's outputs depends on **reception traces** (replies, counter-discourse, threads) and on **dated trajectories** (time series of mentions). An attack corpus alone is not enough to check them.
 
-The same message may produce very different effects depending on:
+## 4. Analytical rather than predictive
 
-- timing,
-- audience history,
-- cultural setting,
-- information saturation,
-- prior conflict,
-- credibility of source.
+ATHENA ranks reception hypotheses. Its value lies in making explicit the factors that may explain adoption, stagnation, resistance, amplification or polarization, and in stating how each hypothesis could be checked.
 
-ATHENA should therefore always be applied with contextual awareness.
+## 5. Not a diffusion or attribution model
 
----
+ATHENA includes a propagation pole but does not replace network analysis, platform analysis or attribution work. It is complementary to OSINT and to attacker-side frameworks such as DISARM and [DIMA](https://github.com/M82-project/DIMA).
 
-## 3. Analytical rather than predictive
+## 6. Known gaps
 
-ATHENA helps structure diagnosis and reasoning.
+Some dimensions are documented as not yet covered, for example:
 
-It does not claim to forecast behaviour with certainty.
+- **functional ambiguity**: a deliberately ambiguous message may score low on clarity while its ambiguity is the weapon;
+- **malinformation**: true content placed in a misleading context calls for its own reading, distinct from resistance to a falsehood;
+- **concentration of propagation**: the small share of accounts that carries most of the diffusion is left to network analysis.
 
-Its value lies in making explicit the interacting factors that may explain:
+## 7. Calibration in progress
 
-- adoption,
-- stagnation,
-- resistance,
-- amplification,
-- polarization.
+ATHENA is being calibrated on retrospective cases. Published cases are calibration exercises, not validation studies.
 
----
+## 8. Public layer only
 
-## 4. Not a standalone diffusion model
+This repository presents the public layer of ATHENA. Assessment criteria and scales, weightings, decision rules, signal definitions, reference grids, prompts, procedures and tools are not included. This distinction is intentional.
 
-ATHENA includes a propagation pole, but it is not intended to replace detailed network or platform analysis.
+## 9. Intended use
 
-It is therefore complementary to diffusion, OSINT, and disinformation frameworks that focus on:
-
-- channels,
-- sequences,
-- tactics,
-- actors,
-- network behaviour.
-
----
-
-## 5. Conceptual layer only
-
-This repository presents only the conceptual layer of ATHENA.
-
-The analytical engine, scoring logic, combinatorial rule system, and private operational implementations are not included.
-
-This distinction is intentional.
-
----
-
-## 6. Intended use
-
-ATHENA is intended to support:
-
-- research,
-- analytical reflection,
-- communication diagnosis,
-- strategic interpretation of narrative dynamics.
-
-It is not presented as a manipulation tool, nor as an automated influence technology.
+ATHENA is intended for research, analytical reflection, reception diagnosis and information defence. It is not a manipulation tool, nor an automated influence technology.
 
 ---
 
 ## Practical Reading
 
-ATHENA should be used as a framework that helps experts ask better questions, organize observations more rigorously, and detect patterns that might otherwise remain implicit.
+ATHENA helps experts ask better questions, organise observations rigorously, say clearly what they know and what they infer, and detect patterns that would otherwise remain implicit.

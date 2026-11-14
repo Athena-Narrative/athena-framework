@@ -1,11 +1,8 @@
-# 8) `CONTRIBUTING.md`
-
-
 # Contributing
 
 Thank you for your interest in ATHENA.
 
-At this stage, this repository presents the **conceptual public layer** of the framework.
+At this stage, this repository presents the **public layer** of the framework.
 
 ## Scope of contributions
 
@@ -23,9 +20,11 @@ Contributions may be considered for:
 This repository does not host:
 
 - the private analytical engine,
-- internal scoring systems,
-- private rule sets,
-- confidential operational implementations.
+- assessment criteria, scales, weightings and thresholds,
+- decision rules and signal definitions,
+- reference grids (archetypes, slides, pole frameworks),
+- prompts, operating procedures and software tools,
+- case files and working corpora.
 
 Please do not open pull requests attempting to reconstruct or extrapolate unpublished proprietary components.
 

@@ -93,7 +93,7 @@ This is not simply a “false message.”
 
 It is a narrative configuration with sufficient internal coherence and transmissibility to circulate, while also benefiting from a defensive shield against direct correction.
 
-In such cases, blunt contradiction may increase resistance rather than reduce adherence.
+In such cases, a correction received as a restriction of the freedom to judge may trigger reactance: derogation of the source and hardening of the threatened position. This is a claim about how the correction is delivered and perceived, not about facts failing to correct beliefs.
 
 ---
 

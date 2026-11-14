@@ -1,117 +1,79 @@
-
----
-
-# 4) `docs/analytical-workflow.md`
-
 # Analytical Workflow
 
-ATHENA analysis follows four main stages.
-
-## 1. Narrative decomposition (CORPS)
-
-The analyst first identifies the narrative object itself.
-
-This may include:
-
-- message structure
-- explicit and implicit causal chain
-- protagonist / antagonist logic
-- archetypal positioning
-- emotional tone
-- coherence and clarity
-
-The goal is to understand how the message is constructed before evaluating its reception.
+An ATHENA analysis is a **human-in-the-loop chain**. Language models are used where the assessment can be derived from the corpus; the analyst remains responsible for everything that depends on knowledge of the audience, and for the final diagnosis.
 
 ---
 
-## 2. Audience configuration (TERRAIN)
+## 0. Case framing
 
-The analyst then evaluates the reception environment.
+Before any analysis, the analyst sets:
 
-This may include:
+- the **analysis mode**: threat analysis, counter-narrative design, or ethical influence;
+- the **case mode**: one-shot message or cumulative campaign;
+- the **declared veracity** of the content;
+- the corpus and its limits.
 
-- identity proximity to the topic
-- audience tensions or sensitivities
-- cultural and normative alignment
-- pre-existing beliefs
-- cognitive availability
-- symbolic relevance
+## 1. Upstream material
 
-The goal is to determine whether the narrative lands on receptive, neutral, fragile, or resistant ground.
+- **Archetypal reading**: emitter's figure and state, assigned roles, slide, implicit target, likely activated biases.
+- **Attacker-side description**: DISARM and/or [DIMA](https://github.com/M82-project/DIMA) characterisation, when available.
+- **Reception substrate**: state of the terrain before the message.
 
----
+## 2. Objective setting
 
-## 3. Defensive threshold detection (BOUCLIER)
+The immediate narrative objective, the long-term strategic aim and the relevant output variable (perception, belief, behaviour) are fixed. Everything downstream is assessed against them.
 
-The analyst then assesses potential resistance.
+## 3. Pole assessment
 
-This may include:
+Each pole is assessed **blind to the others' scores**, from the corpus and the shared upstream facts. Every assessment carries its evidence and its evidential status (factual, deduced, not assessable).
 
-- perceived autonomy threat
-- identity threat
-- legitimacy conflict
-- suspicion of manipulation
-- distrust of source
-- likelihood of reactance
+When a language model is used, it produces a **structured proposal** that must comply with an explicit evidence contract. Proposals are validated automatically for form, then arbitrated by the analyst.
 
-The goal is to estimate whether the narrative will be absorbed, contested, or rejected.
+## 4. Last mile (analyst)
 
----
+Some assessments cannot be made from the message alone: the audience itself, its history, its social environment and the practical conditions of action.
 
-## 4. Activation dynamics (VECTEUR)
+These are assessed by the analyst from contextual observation. When the context is not documented, the item is marked **not assessable** and the report carries a *partial data* mention. Nothing is filled in by default.
 
-The analyst finally evaluates movement and propagation.
+## 5. Diagnosis and validation
 
-This may include:
+- The configuration is computed and compared with the analyst's reading.
+- A sensitivity check shows which assessments drive the result.
+- Triggered signals are reviewed.
+- **Single-revision rule**: an assessment may be revised only once. A signal that persists after revision is kept and documented, not removed by conviction.
+- Assessments indicating high reactance require a second reader.
 
-- mobilization potential
-- social relay potential
-- amplification conditions
-- emotional transmissibility
-- controversy fuel
-- spread dynamics
+## 6. Outputs
 
-The goal is to understand whether the narrative is likely to stagnate, circulate, activate, or polarize.
+- **Analyst report**: complete reasoning, statuses, open points.
+- **Decision-maker briefing**: what happened, how the manoeuvre works, where the danger lies, what can and cannot be asserted, what to monitor, recommended posture.
 
----
+## 7. Observable checks (RETEX)
 
-## Analytical Output
-
-The interaction of the four poles produces a system-level diagnosis.
-
-Depending on the case, the analyst may identify:
-
-- narrative opportunity
-- narrative fragility
-- audience resistance
-- low-movement inertia
-- amplification potential
-- polarization risk
-- tipping-point dynamics
+Each diagnosis states its observables: what would be seen if it is right, what would be seen if it is wrong, and when and where to look. Those observables feed the return on experience and the calibration of the framework.
 
 ---
 
-## Minimal Analytical Sequence
+## Minimal Sequence
 
-A minimal ATHENA sequence can be summarized as follows:
-
-1. Identify the narrative.
-2. Assess the four poles.
-3. Compare the balance of forces.
-4. Diagnose the configuration.
-5. Infer strategic implications.
+1. Frame the case.
+2. Gather the upstream material.
+3. Fix the objective.
+4. Assess the four poles.
+5. Complete the context-dependent assessments.
+6. Diagnose the configuration.
+7. State what would confirm or refute it.
 
 ---
 
 ## Strategic Use
 
-ATHENA is intended to support:
+ATHENA supports:
 
-- diagnosis
-- risk identification
-- campaign assessment
+- threat diagnosis and prioritisation
+- choice of response posture (respond, monitor, stay silent)
 - counter-narrative design reasoning
-- communication recalibration
+- pre-publication red teaming
 - structured expert discussion
 
-It is especially useful when message performance cannot be explained by message content alone.
+It is especially useful when a narrative's performance cannot be explained by its content alone, and when the cost of a wrong response (amplifying what one wants to contain) is high.

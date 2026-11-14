@@ -7,12 +7,16 @@ authors:
     given-names: "Elise"
 repository-code: "https://github.com/Athena-Narrative/athena-framework"
 license: "CC-BY-NC-SA-4.0"
-version: "2026.1"
-date-released: "2026-03-09"
+version: "2026.2"
+date-released: "2026-11-14"
 abstract: >
-  ATHENA is a four-pole analytical framework for narrative influence analysis,
-  integrating narrative structure, audience configuration, psychological
-  reactance, and activation dynamics.
+  ATHENA is a reception-analysis framework for narrative influence. Its four
+  poles (narrative structure, audience configuration, psychological reactance,
+  activation dynamics) are fed by upstream layers (archetypal reading,
+  attacker-side frameworks such as DISARM and DIMA, reception substrate) and
+  an explicit objective-setting stage, within a human-in-the-loop,
+  LLM-assisted analytical chain governed by an evidence contract on inputs
+  and declared proof regimes on outputs.
 keywords:
   - narrative analysis
   - psychological reactance
@@ -20,11 +24,14 @@ keywords:
   - disinformation analysis
   - influence analysis
   - information dynamics
+  - narrative reception
+  - FIMI
+  - archetypes
 preferred-citation:
   type: article
   authors:
     - family-names: "Cahour"
       given-names: "Elise"
-  title: "ATHENA Framework — A Four-Pole Analytical Framework for Narrative Influence Analysis"
+  title: "ATHENA Framework: A Reception-Analysis Framework for Narrative Influence"
   year: 2026
   url: "https://github.com/Athena-Narrative/athena-framework"
